@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 50vw;
+    border-radius: 12px;
+    height: 50vh;
+    
+}
+
+.imgProduct{
+    width: 50%;
+    background-image: url('./images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.title{
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    word-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+
+
+
+.btnAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    color: white;
+}
